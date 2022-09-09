@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+/* >>>>>>>>>>>>> HEADER <<<<<<<<<<<<<*/
+#header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-header-xd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-button {
+    background-color: #3882f6;
+    padding: 5px;
+    color: #F9FAF8;
+}
+
+#info {
+    background-color: white;
+}
+
+#quote-mersuti {
+    background-color: #e5e7eb;
+}
+
+#call-to-action {
+    background-color: white;
+}
+
+#footer {
+    background-color: #1f2937;
+}
