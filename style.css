@@ -5,12 +5,9 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 8px;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* >>>>>>>>>>>>> HEADER <<<<<<<<<<<<<*/
@@ -18,17 +15,52 @@ ul {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding: 0 10%;
 }
 
+/*>>> HEADER OF HEADER XD <<<*/
 .header-header-xd {
     display: flex;
     justify-content: space-between;
+    margin-top: 8px;
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navigation li {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
+
+
+
+.header-main {
+    display: flex;
+    margin-top: 100px;
+}
+
+.header-main-left {
+
+}
+
+.header-main-image {
+    background-color: gray;
+    height: 250px;
+    width: 750px;
+}
+
 
 .header-main-text {
     font-size: 48px;
