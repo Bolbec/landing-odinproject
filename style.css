@@ -165,12 +165,39 @@ a {
 }
 
 
-
-
 #call-to-action {
     background-color: white;
+    padding: 6% 18%;
+}
+
+.cta-main {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 6% 12%;
+    display: flex;
+    color: #e5e7eb;
+    justify-content: space-between;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 132px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #footer {
     background-color: #1f2937;
+    padding: 1.5%;
+    text-align: center;
+    color:#e5e7eb;
 }
